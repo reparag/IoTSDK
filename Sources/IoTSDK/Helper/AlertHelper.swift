@@ -6,9 +6,9 @@
 //
 import UIKit
 
+@MainActor
 public class AlertHelper {
 
-    @MainActor
     private static func topViewController(_ controller: UIViewController? = nil) -> UIViewController? {
         let rootVC: UIViewController?
         if let controller = controller {
@@ -31,7 +31,6 @@ public class AlertHelper {
         return rootVC
     }
 
-    @MainActor
     public static func showAlert(title: String, message: String) {
         guard let topVC = topViewController() else {
             print("⚠️ AlertHelper: No top view controller found.")

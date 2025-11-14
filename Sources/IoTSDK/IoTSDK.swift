@@ -41,7 +41,6 @@ public class IoTSDKManager {
         return "Logged in"
     }
 
-    @MainActor
     public func showAlert(title: String, message: String) {
         AlertHelper.showAlert(title: title, message: message)
     }
