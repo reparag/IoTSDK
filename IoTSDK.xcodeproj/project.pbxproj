@@ -19,7 +19,6 @@
 		C41FB6E62EC7AD2E0074DF4A /* IoTSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IoTSDK.docc; sourceTree = "<group>"; };
 		C41FB6E72EC7AD2E0074DF4A /* IoTSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTSDK.swift; sourceTree = "<group>"; };
 		C425F0C62EC765B600C15D8A /* IoTSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IoTSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C425F0E62EC76AFD00C15D8A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		C425F0EE2EC76E3300C15D8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C425F0F02EC773B600C15D8A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C425F0F22EC7A44700C15D8A /* IoTSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = IoTSDK.podspec; sourceTree = "<group>"; };
@@ -66,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				C425F0F22EC7A44700C15D8A /* IoTSDK.podspec */,
-				C425F0E62EC76AFD00C15D8A /* Package.swift */,
 				C425F0F02EC773B600C15D8A /* LICENSE */,
 				C425F0EE2EC76E3300C15D8A /* README.md */,
 				C425F0C72EC765B600C15D8A /* Products */,

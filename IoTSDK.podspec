@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IoTSDK"
-  s.version          = "3.0.0"
+  s.version          = "4.0.0"
   s.summary          = "An iOS Swift library for IoT device management"
   s.description      = <<-DESC
     IoTSDK is an iOS library that helps you connect, read, and manage IoT devices easily.
