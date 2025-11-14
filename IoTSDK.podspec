@@ -12,22 +12,22 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "15.0"
   s.swift_version    = "6.1"
 
-  # Source files
+  # Include your Swift sources
   s.source_files     = "Sources/IoTSDK/**/*.swift"
 
-  # Include DocC documentation (optional)
-  s.resources       = "Sources/IoTSDK/IoTSDK.docc/**/*"
-  
-  # Optional: Include prebuilt XCFramework if you have it
-    s.vendored_frameworks = "IoT.xcframework"
+  # Include DocC resources
+  s.resources        = "Sources/IoTSDK/IoTSDK.docc/**/*"
 
-  # Optional: Disable code signing for prebuilt SDK (needed for XCFramework)
-   s.pod_target_xcconfig = {
-     'CODE_SIGNING_ALLOWED' => 'NO',
-     'EXPANDED_CODE_SIGN_IDENTITY' => ''
-   }
-   s.user_target_xcconfig = {
-     'CODE_SIGNING_ALLOWED' => 'NO',
-     'EXPANDED_CODE_SIGN_IDENTITY' => ''
-   }
+  # Prebuilt XCFramework
+  s.vendored_frameworks = "IoTSDK.xcframework"
+
+  # Disable code signing for XCFramework
+  s.pod_target_xcconfig = {
+    'CODE_SIGNING_ALLOWED' => 'NO',
+    'EXPANDED_CODE_SIGN_IDENTITY' => ''
+  }
+  s.user_target_xcconfig = {
+    'CODE_SIGNING_ALLOWED' => 'NO',
+    'EXPANDED_CODE_SIGN_IDENTITY' => ''
+  }
 end
