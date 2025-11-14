@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IoTSDK"
-  s.version          = "4.0.0"
+  s.version          = "5.0.0"
   s.summary          = "An iOS Swift library for IoT device management"
   s.description      = <<-DESC
     IoTSDK is an iOS library that helps you connect, read, and manage IoT devices easily.
@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.swift_version    = "6.1"
 
   # Include your Swift sources
-  s.source_files     = "Sources/IoTSDK/**/*.swift"
+  #s.source_files     = "Sources/IoTSDK/**/*.swift"
 
   # Include DocC resources
-  s.resources        = "Sources/IoTSDK/IoTSDK.docc/**/*"
+  #s.resources        = "Sources/IoTSDK/IoTSDK.docc/**/*"
 
   # Prebuilt XCFramework
   s.vendored_frameworks = "IoTSDK.xcframework"
