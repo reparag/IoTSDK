@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IoTSDK"
-  s.version          = "2.0.0"
+  s.version          = "3.0.0"
   s.summary          = "An iOS Swift library for IoT device management"
   s.description      = <<-DESC
     IoTSDK is an iOS library that helps you connect, read, and manage IoT devices easily.
@@ -19,15 +19,15 @@ Pod::Spec.new do |s|
   s.resources       = "Sources/IoTSDK/IoTSDK.docc/**/*"
   
   # Optional: Include prebuilt XCFramework if you have it
-  # s.vendored_frameworks = "IoT.xcframework"
+    s.vendored_frameworks = "IoT.xcframework"
 
   # Optional: Disable code signing for prebuilt SDK (needed for XCFramework)
-  # s.pod_target_xcconfig = {
-  #   'CODE_SIGNING_ALLOWED' => 'NO',
-  #   'EXPANDED_CODE_SIGN_IDENTITY' => ''
-  # }
-  # s.user_target_xcconfig = {
-  #   'CODE_SIGNING_ALLOWED' => 'NO',
-  #   'EXPANDED_CODE_SIGN_IDENTITY' => ''
-  # }
+   s.pod_target_xcconfig = {
+     'CODE_SIGNING_ALLOWED' => 'NO',
+     'EXPANDED_CODE_SIGN_IDENTITY' => ''
+   }
+   s.user_target_xcconfig = {
+     'CODE_SIGNING_ALLOWED' => 'NO',
+     'EXPANDED_CODE_SIGN_IDENTITY' => ''
+   }
 end

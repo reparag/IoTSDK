@@ -1,0 +1,278 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "IoTSDK",
+    "printedName": "IoTSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IoTSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertHelper",
+        "printedName": "AlertHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6IoTSDK11AlertHelperC04showC05title7messageySS_SStFZ",
+            "mangledName": "$s6IoTSDK11AlertHelperC04showC05title7messageySS_SStFZ",
+            "moduleName": "IoTSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertHelper",
+                "printedName": "IoTSDK.AlertHelper",
+                "usr": "s:6IoTSDK11AlertHelperC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6IoTSDK11AlertHelperCACycfc",
+            "mangledName": "$s6IoTSDK11AlertHelperCACycfc",
+            "moduleName": "IoTSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6IoTSDK11AlertHelperC",
+        "mangledName": "$s6IoTSDK11AlertHelperC",
+        "moduleName": "IoTSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IoTSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IoTSDKManager",
+        "printedName": "IoTSDKManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IoTSDKManager",
+                "printedName": "IoTSDK.IoTSDKManager",
+                "usr": "s:6IoTSDK0A11TSDKManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6IoTSDK0A11TSDKManagerC6sharedACvpZ",
+            "mangledName": "$s6IoTSDK0A11TSDKManagerC6sharedACvpZ",
+            "moduleName": "IoTSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IoTSDKManager",
+                    "printedName": "IoTSDK.IoTSDKManager",
+                    "usr": "s:6IoTSDK0A11TSDKManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6IoTSDK0A11TSDKManagerC6sharedACvgZ",
+                "mangledName": "$s6IoTSDK0A11TSDKManagerC6sharedACvgZ",
+                "moduleName": "IoTSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loginUser",
+            "printedName": "loginUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6IoTSDK0A11TSDKManagerC9loginUserSSyF",
+            "mangledName": "$s6IoTSDK0A11TSDKManagerC9loginUserSSyF",
+            "moduleName": "IoTSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6IoTSDK0A11TSDKManagerC9showAlert5title7messageySS_SStF",
+            "mangledName": "$s6IoTSDK0A11TSDKManagerC9showAlert5title7messageySS_SStF",
+            "moduleName": "IoTSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6IoTSDK0A11TSDKManagerC",
+        "mangledName": "$s6IoTSDK0A11TSDKManagerC",
+        "moduleName": "IoTSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
