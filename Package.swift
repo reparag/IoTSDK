@@ -15,9 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "IoTSDK",
-            resources: [
-//                .process("Resources")   // remove this if you have NO Resources folder
-            ]
+            path: "Sources/IoTSDK"
         )
     ]
 )
