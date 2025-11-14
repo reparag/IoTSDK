@@ -16,6 +16,7 @@
 		C425F0E62EC76AFD00C15D8A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		C425F0EE2EC76E3300C15D8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C425F0F02EC773B600C15D8A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C425F0F22EC7A44700C15D8A /* IoTSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = IoTSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,6 +41,7 @@
 		C425F0BC2EC765B600C15D8A = {
 			isa = PBXGroup;
 			children = (
+				C425F0F22EC7A44700C15D8A /* IoTSDK.podspec */,
 				C425F0E62EC76AFD00C15D8A /* Package.swift */,
 				C425F0F02EC773B600C15D8A /* LICENSE */,
 				C425F0EE2EC76E3300C15D8A /* README.md */,
